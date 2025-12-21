@@ -1,0 +1,67 @@
+/* FONTES */
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    color: #1F2933;
+}
+
+p,
+button,
+input {
+    font-family: 'Inter', sans-serif;
+}
+
+/* INPUT */
+.container__input {
+    width: 100%;
+    height: 64px;
+    border-radius: 14px;
+    background-color: #F4FBF7;
+    border: 2px solid #BFE9D3;
+    color: #1F2933;
+    padding: 1.5rem;
+    font-size: 18px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.container__input::placeholder {
+    color: #6B7280;
+}
+
+.container__input:focus {
+    outline: none;
+    border-color: #35E235;
+    box-shadow: 0 0 0 3px rgba(53, 226, 53, 0.25);
+}
+
+/* BOTÕES */
+.container__botao {
+    border-radius: 16px;
+    background: linear-gradient(135deg, #35E235, #8ED9B6);
+    padding: 20px 32px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    margin-top: 2rem;
+    color: #0F172A;
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+
+.container__botao:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(53, 226, 53, 0.35);
+}
+
+.container__botao:active {
+    transform: translateY(0);
+}
+
+button:disabled {
+    background: #C7EFCF;
+    color: #6B7280;
+    cursor: not-allowed;
+}
